@@ -1,5 +1,5 @@
-import { Person } from './person';
-import { Role } from './role';
+import { Person } from './person.js';
+import { Role } from './role.js';
 
 export interface User extends Person {
     username: string;
